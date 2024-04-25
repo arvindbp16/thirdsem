@@ -1,0 +1,96 @@
+<script language="JavaScript">
+    var a;
+    var b;
+    var c;
+    var d;
+    var e;
+    var f;
+    var g;
+    var h;
+    var i;
+    var result=0;
+    var sg=0;
+
+    function Calculate()
+    {
+        a=parseInt(f1.tN1.value);
+        b=parseInt(f1.tN2.value);
+        c=parseInt(f1.tN3.value);
+        d=parseInt(f1.tN4.value);
+        e=parseInt(f1.tN5.value);
+        f=parseInt(f1.tN6.value);
+        g=parseInt(f1.tN7.value);
+        h=parseInt(f1.tN8.value);
+        i=parseInt(f1.tN9.value);
+        ma=parseInt(a/10)+1;
+        mb=parseInt(b/10)+1;
+        mc=parseInt(c/10)+1;
+        md=parseInt(d/10)+1;
+        me=parseInt(e/10)+1;
+        mf=parseInt(f/10)+1;
+        mg=parseInt(g/10)+1;
+        mh=parseInt(h/10)+1;
+        mi=parseInt(i/10)+1;
+        result = ((ma*4)+(mb*4)+(mc*4)+(md*3)+(me*1)+(mf*3)+(mg*1)+(mh*1)+(mi*0))/21
+        document.write("The SGPA is :"+ "<b>" + result + "<b>" + "</br>");
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sgpacalc</title>
+</head>
+<body>
+    <h2>Let's Calculate your SGPA</h2>
+<form name="f1">
+<b>Enter the marks for BCS301 :</b><INPUT type="number" name="tN1"> </br>
+<b>Enter the marks for BCS302 :</b><INPUT type="textbox" name="tN2"> </br>
+<b>Enter the marks for BCS303 :</b><INPUT type="textbox" name="tN3"> </br>
+<b>Enter the marks for BCS304 :</b><INPUT type="textbox" name="tN4"> </br>
+<b>Enter the marks for BCSL305 :</b><INPUT type="textbox" name="tN5"> </br>
+<b>Enter the marks for BCS306* :</b><INPUT type="textbox" name="tN6"> </br>
+<b>Enter the marks for BCSK307 :</b><INPUT type="textbox" name="tN7"> </br>
+<b>Enter the marks for BCS358* :</b><INPUT type="textbox" name="tN8"> </br>
+<b>Enter the marks for BCSK359 :</b><INPUT type="textbox" name="tN9"> </br>
+
+
+<INPUT type="button" value="Chaliye shuru karte he !!!!!!!" onclick="Calculate()">
+</form>
+</body>
+</html>
